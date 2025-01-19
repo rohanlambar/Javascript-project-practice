@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    background-color: rgb(235, 230, 230);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#container{
+    background-color: black;
+    max-width:500px;
+    display: flex;
+    overflow:hidden;
+    /* max-height: 750px; */
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#display{
+    background-color: rgba(47, 44, 44, 0.929);
+    color:white;
+    font-size: 6rem;
+    width:100%;
+    height: 100px;
+    border:none;
+    text-align: left;
+    padding:15px;
+    margin-left: 25px;
+    margin-bottom: 0px;
+    overflow: auto;
+}
+#btns{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding:25px;
+   
+
+}   
+#btns button{
+     width:100px;
+    height:100px;
+    border-radius : 50px;
+    font-size: 2em;
+    margin: 5px 5px;
+    color:white;
+    border:none;
+    background-color: rgb(50, 49, 49);
+    cursor:pointer;
+
+
+}
+#btns button:hover{
+    background-color: rgb(149, 148, 148);;
+}
+#btns button:active{
+    background-color: rgb(188, 186, 186);;
+
+}
+#btns .op-btn{
+background-color: rgb(224, 147, 5);
+}
+#btns .op-btn:hover{
+    background-color: rgb(244, 172, 39);
+    }
+#btns .op-btn:active{
+background-color: rgb(253, 206, 120);
+}

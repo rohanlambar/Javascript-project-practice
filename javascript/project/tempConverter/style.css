@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    background-color: rgb(245, 240, 240);
+}
+
+#contain{
+    display: block;
+    background-color:white;
+    text-align: center;
+    max-width: 350px;
+    margin: auto;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 5px 2px  ;
+}
+#header{
+    font-size: 2em;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgba(88, 189, 252, 0.801);
+}
+#data{
+    text-align: center;
+    font-size: 1.2em;
+    margin: 10px 20px;
+    border:2px solid rgb(8, 0, 0);
+    border-radius:5px;
+}
+.label{
+    font-size: 25px;
+    font-weight: bold;
+
+}
+#submitData{
+    font-size: 1.2em;
+    padding:5px 5px;
+    background-color: red;
+    transition: background-color 0.5s;
+}
+#submitData:hover{
+    background-color: rgb(26, 184, 174);
+}
+#solution{
+    font-size: 1.2em;
+    font-weight: bold;
+}

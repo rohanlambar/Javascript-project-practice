@@ -1,0 +1,16 @@
+#dataEntry{
+    background-color: rgb(231, 231, 231);
+    font-size: 2rem;
+    border:none;
+    border-radius: 15px;
+    padding : 5px 5px;
+}
+button{
+    font-size: 2.5rem;
+    margin:15px ;
+    border: none;
+    background-color: rgb(249, 43, 16);
+    color:white;
+    border-radius: 10px;
+
+}
